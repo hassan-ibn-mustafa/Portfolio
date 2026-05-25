@@ -22,7 +22,7 @@ export default function Footer() {
         </p>
 
         <a
-          href="/#/admin"
+          href="#/admin"
           className="font-mono text-xs transition-colors"
           style={{ color: 'rgba(122,122,122,0.3)' }}
           onMouseEnter={e => e.currentTarget.style.color = 'rgba(192,57,43,0.6)'}

@@ -60,7 +60,7 @@ export default function Navbar() {
             </button>
           ))}
           <a
-            href="/#/admin"
+            href="#/admin"
             className="ml-4 px-4 py-2 text-xs font-mono border border-crimson/20 text-crimson-400 rounded-md hover:border-crimson/40 hover:text-crimson-bright transition-all"
             style={{ color: 'rgba(192,57,43,0.6)' }}
           >
