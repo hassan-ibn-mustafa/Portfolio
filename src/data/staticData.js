@@ -17,7 +17,7 @@ export const PERSONAL = {
   linkedin: 'https://linkedin.com/in/hassan-ibn-mustafa',
   github: 'https://github.com/your-username',
   email: 'hassan.ibn.mustafa@gmail.com',
-  cvUrl: '#', // link to your CV PDF
+  cvUrl: 'https://drive.google.com/file/d/1M1YwdVPPr4W7LcgjgvCZoesgR8zODp2z/view?usp=drive_link', // link to your CV PDF
   location: 'Egypt',
 }
 
