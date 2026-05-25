@@ -1,5 +1,6 @@
 import React from 'react'
 import { PERSONAL } from '../data/staticData'
+import myLogo from '../logo.png'
 
 export default function Footer() {
   const year = new Date().getFullYear()
@@ -9,7 +10,7 @@ export default function Footer() {
         {/* Logo */}
         <a href="#" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
           <img
-            src="public\logo.png"
+            src={myLogo}
             alt="Hassan The Controlman"
             className="w-32 h-auto scale-150 origin-left"
             style={{ mixBlendMode: 'lighten' }}

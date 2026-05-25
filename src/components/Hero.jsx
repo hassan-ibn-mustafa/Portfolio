@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { ChevronDown, Github, Linkedin, Mail, Download } from 'lucide-react'
 import { PERSONAL } from '../data/staticData'
-
+import myLogo from '../logo.png'
 // Animated ECG waveform — matches the logo motif
 function EcgLine() {
   return (
@@ -52,7 +52,7 @@ function HeroIllustration() {
         }}
       >
         <img
-          src="./logo.png"
+          src={myLogo}
           alt="Hassan The Controlman"
           className="w-64 h-64 object-contain rounded-xl"
           style={{ mixBlendMode: 'lighten' }} 
