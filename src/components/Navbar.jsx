@@ -40,7 +40,7 @@ export default function Navbar() {
           className="flex items-center"
         >
           <img
-            src="/logo.png"
+            src="public\logo.png"
             alt="Hassan The Controlman"
             className="w-32 h-auto scale-150 origin-left"
             style={{ mixBlendMode: 'lighten' }}

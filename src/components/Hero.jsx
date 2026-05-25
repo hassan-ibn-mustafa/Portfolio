@@ -52,7 +52,7 @@ function HeroIllustration() {
         }}
       >
         <img
-          src="/logo.png"
+          src="public\logo.png"
           alt="Hassan The Controlman"
           className="w-64 h-64 object-contain rounded-xl"
           style={{ mixBlendMode: 'lighten' }} 
