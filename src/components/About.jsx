@@ -26,7 +26,7 @@ export default function About() {
 
               {/* Decorative terminal block */}
               <div className="absolute inset-6 rounded-xl border border-crimson/10 bg-ink-900/70 backdrop-blur-sm p-6 flex flex-col justify-between">
-                <div>
+                <div className="overflow-hidden">
                   <div className="flex items-center gap-2 mb-4">
                     <div className="flex gap-1.5">
                       <div className="w-3 h-3 rounded-full bg-red-500/60" />
@@ -36,7 +36,9 @@ export default function About() {
                     <span className="font-mono text-xs text-slate-muted/60 ml-2">~/about.json</span>
                   </div>
 
-                  <pre className="font-mono text-xs text-slate-muted leading-relaxed whitespace-pre-wrap">
+                  {/* Added overflow-x-auto here for mobile scrolling */}
+                  <div className="overflow-x-auto pb-2">
+                    <pre className="font-mono text-[10px] sm:text-xs text-slate-muted leading-relaxed whitespace-pre">
 {`{
   "name": "${PERSONAL.name}",
   "role": "Industrial Automation
@@ -50,11 +52,12 @@ export default function About() {
   ],
   "status": "open_to_internship"
 }`}
-                  </pre>
+                    </pre>
+                  </div>
                 </div>
 
                 {/* Blinking cursor */}
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 mt-2">
                   <span className="font-mono text-xs text-crimson-bright/60">$</span>
                   <div className="w-2 h-4 bg-crimson/60 animate-pulse" />
                 </div>
@@ -70,8 +73,8 @@ export default function About() {
               </div>
             </div>
 
-            {/* Stats row */}
-            <div className="grid grid-cols-4 gap-3 mt-4">
+            {/* Stats row - Changed to 2 columns on mobile, 4 on medium screens */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-4">
               {STATS.map((s) => (
                 <div
                   key={s.label}
