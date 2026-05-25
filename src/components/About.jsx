@@ -5,7 +5,7 @@ import { PERSONAL } from '../data/staticData'
 const STATS = [
   { value: '5+', label: 'Engineering Projects' },
   { value: '3', label: 'PCB Designs' },
-  //{ value: '2+', label: 'Years Experience' },
+  { value: '2+', label: 'Years Experience' },
   { value: '8+', label: 'Certifications' },
 ]
 
