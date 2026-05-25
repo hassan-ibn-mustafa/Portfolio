@@ -12,7 +12,7 @@ export default function Footer() {
           <img
             src={myLogo}
             alt="Hassan The Controlman"
-            className="w-32 h-auto scale-150 origin-left"
+            className="h-12 sm:h-14 w-auto object-contain mx-auto mb-4" 
             style={{ mixBlendMode: 'lighten' }}
           />
         </a>
