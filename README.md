@@ -12,7 +12,7 @@
 [![Supabase](https://img.shields.io/badge/Supabase-2.45-3ecf8e?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com)
 [![GitHub Pages](https://img.shields.io/badge/Hosted_on-GitHub_Pages-222?style=flat-square&logo=github)](https://pages.github.com)
 
-[🌐 Live Site](#) · [⚙️ Admin Panel](#/admin)
+[🌐 Live Site](https://hassan-ibn-mustafa.github.io/portfolio/) 
 
 </div>
 
