@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
+import myLogo from '../logo.png'
 
 const NAV_LINKS = [
   { label: 'About', href: '#about' },
@@ -40,7 +41,7 @@ export default function Navbar() {
           className="flex items-center"
         >
           <img
-            src="public\logo.png"
+            src={myLogo}
             alt="Hassan The Controlman"
             className="w-32 h-auto scale-150 origin-left"
             style={{ mixBlendMode: 'lighten' }}
